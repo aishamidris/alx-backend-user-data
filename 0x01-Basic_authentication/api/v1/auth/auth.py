@@ -6,6 +6,7 @@ from api.v1.auth.auth import Auth
 from typing import List, TypeVar
 from flask import request
 
+
 class Auth:
     """ Auth class
     """
@@ -24,4 +25,3 @@ class Auth:
         """ Current user method
         """
         return None
-
